@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
 </head>
 
 <body>
@@ -18,8 +18,9 @@
                     <div>
                         <h1>james consulting</h1>
                     </div>
-                    <i class="fas fa-bars"></i>
-                    <ul>
+
+                    <i class="fas fa-bars" id="menu" onclick="Menu()"></i>
+                    <ul id="list">
                         <a href="#">
                             <li>about</li>
                         </a>
@@ -35,9 +36,8 @@
                         <a href="#">
                             <li>contact</li>
                         </a>
-                        <a href="#"><i class="fas fa-user-circle"></i></a>
                         <a href="#">
-                            <li>log in</li>
+                            <li style="display: flex;gap: 20px;"><i class="fas fa-user-circle"></i>log in</li>
                         </a>
                     </ul>
                 </nav>
@@ -247,6 +247,9 @@
             </div>
         </div>
     </div>
+
+
+    <script src="js/main.js"></script>
 </body>
 
 </html>
